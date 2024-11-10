@@ -1,0 +1,12 @@
+package csc372module5cta;
+
+public class ProductRecursion {
+	int[] num = new int[]{};
+	
+	public ProductRecursion () {
+		
+	}
+	
+	
+
+}

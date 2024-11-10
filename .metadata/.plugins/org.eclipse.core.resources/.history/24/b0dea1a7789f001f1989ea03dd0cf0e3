@@ -1,0 +1,38 @@
+package csc372module5cta;
+
+public class ProductRecursion {
+	
+	
+	
+	int [] num;
+	
+	
+	public ProductRecursion (int[] num) {
+		this.num = num;
+		
+		
+	}
+	
+	public int recursiveMethod(int a) {
+	
+		
+		if(a == 0){
+			return 0;
+			
+		}else 
+			return num[a] * recursiveMethod(a-1);
+			
+			
+	
+			
+
+		}
+	
+	}
+	
+	
+	
+
+	
+
+

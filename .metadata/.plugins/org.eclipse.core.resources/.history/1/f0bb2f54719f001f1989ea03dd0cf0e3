@@ -1,0 +1,32 @@
+package csc372module5cta;
+
+public class ProductRecursion {
+	private int[]num = new int[] {};	
+	private int a = 5;
+	private int productOfNums = 1;
+	
+	
+	
+	public ProductRecursion (int[] num) {
+		this.num = num;
+		
+	}
+	
+	public int recursiveMethod(int a) {
+		if(a == 0){
+			return 1;
+			
+		}else {
+			productOfNums = num[a] * recursiveMethod(a-1);
+			
+			
+	
+			return productOfNums;
+
+		}
+	}
+	
+}
+	
+
+

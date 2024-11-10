@@ -1,0 +1,29 @@
+package csc372module5cta;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[] num = new int[5];
+		int a = 4;
+
+		UserInput userInputSystem = new UserInput();
+		
+		num[0] = userInputSystem.getFirstUserNum();
+		num[1] = userInputSystem.getSecondUserNum();
+		num[2] = userInputSystem.getThirdUserNum();
+		num[3] = userInputSystem.getFourthUserNum();
+		num[4] = userInputSystem.getFifthUserNum();
+
+
+
+
+		ProductRecursion productRecursion = new ProductRecursion(num);
+		
+		
+		
+		System.out.println("the product is: " + productRecursion.recursiveMethod(4));
+			
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package csc372module5cta;
+
+public class Main {
+
+	public static void main(String[] args) {
+		UserInput userInputSystem = new UserInput();
+		
+		
+		ProductRecursion productRecursion = new ProductRecursion();
+		
+
+	}
+
+}
